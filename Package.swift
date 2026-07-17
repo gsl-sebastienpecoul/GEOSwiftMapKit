@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "GEOSwiftMapKit", targets: ["GEOSwiftMapKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/gsl-sebastienpecoul/GEOSwift.git", exact: "11.2.0-binary")
+        .package(url: "https://github.com/gsl-sebastienpecoul/GEOSwift.git", exact: "11.2.0-b1")
     ],
     targets: [
         .target(
